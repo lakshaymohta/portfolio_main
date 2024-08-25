@@ -1,0 +1,77 @@
+.intro{
+    display: block;
+    padding-right: 50px;
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+.intro_img{
+    float: right;
+    z-index: 2;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.heading{
+    display: block;
+    font-size: 250%;
+    font-weight: 600;
+    padding-top:20px ;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.schl{
+    float: inline-start;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.text{
+    font-size: 150%;
+    margin-right: 10px;
+    
+}
+.clg{
+    float: inline-end;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#clg_text{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+.sub-heading{
+    font-size: 200%;
+    margin-left: 20px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.text-skill{
+    font-size: 150%;
+    margin-left: 200px;
+}
+.text-project{
+    font-size: 150%;
+    margin-left: 80px;
+}
+.img-cyb{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.img-drone{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+#cyb{
+    margin-top: 20px;
+}
+#link-cyb, #link-drone{
+    margin-top:10px ;
+}
+#drone{
+    margin-top: 50px;
+}

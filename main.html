@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- navigation bar start-->
+    <nav>
+        <a id="name" href="main.html">Lakshay Mohta</a>
+        <input type="checkbox" id="active">
+        <label for="active" class="open">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        <div class="container">
+            <label for="active" class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+            
+            <a href="about.html" class="links" target="_blank">About</a>
+            <a href="about.html#project"target="_blank">Projects</a>
+            </div>
+    </nav>
+    <!-- navigation bar end -->
+
+    <!-- About Me -->
+     <section style="margin-top: 20px;">
+        <div class="intro" style="float:left; margin-left: 20px;" data-aos="slide-right" data-aos-duration="2500" >
+            Hello Everyone,
+            <br>
+            Future full stack developer here.
+            <br>
+            From front-end design to back-end architecture,
+            <br> 
+            I've got you covered.
+            <div class="know">
+                <button class="btn"> <a href="about.html" target="_blank"> Know more </a></button>
+            </div>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1200" >
+            <img class="image" src="imgage_copy.jpg" height="450px" alt="">
+        </div>
+        <div>
+            <p class="name">Lakshay Mohta</p>
+        </div>
+     </section>
+     <!--Information -->
+     <section>
+        <hr style="margin-top: 200px;">
+        <div class="wrapper" >
+
+            <ul class="panels" >
+                <li style="margin-right: 20px;">
+                    <div class="front" data-aos="fade-right" data-aos-duration="1000" >Education</div>
+                    <div class="back" >I studied from Modern Public School <br>
+                        and pursuing BCA from <br> Vivekanada Institute of Professional Studies
+                        <button class="btn" class="know"> <a href="about.html#education" target="_blank"  class="panel-btn"> Know more </a></button>
+                    </div>
+                </li>
+                <li style="margin-right: 20px;">
+                    <div class="front"  data-aos="zoom-out-up" data-aos-duration="1000" >Skills</div>
+                    <div class="back" class="skills" >1.Front-End Development<br>
+                        2.Back-End Development <br>
+                        3.Problem Solving<br>
+                        <button class="btn" class="know"> <a href="about.html#skill" target="_blank" class="panel-btn"> Know more </a></button>
+                    </div>
+                </li>
+                <li style="margin-right: 20px;">
+                    <div class="front"  data-aos="fade-left" data-aos-duration="1000" >Projects</div>
+                    <div class="back" >1.Voice Assistant <br>
+                        2.Website on Drones <br>
+                        3.Website about Cyberpunk <br>
+                        <button class="btn" class="know"> <a href="about.html#project" target="_blank" class="panel-btn"> Know more </a></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+     </section>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+
+</html>
